@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a50026; /* Crimson Blue */
+    color: #fff; /* White text color */
+    padding: 10px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 40px; /* Set the desired width for your logo image */
+    height: 40px; /* Set the desired height for your logo image */
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .company-salutation {
+    font-size: 0.9rem;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-item {
+    margin-right: 10px;
+  }
+  
+  .navbar-item:last-child {
+    margin-right: 0; /* Remove the right margin from the last item */
+  }
+  
+  /* Style the links */
+  .navbar-item a {
+    text-decoration: none;
+    color: #fff; /* White text color for links */
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+  
+  /* Optional: Add hover effect for links */
+  .navbar-item a:hover {
+    background-color: #ddd;
+    color: #333; /* Change the link text color on hover */
+  }
+  
